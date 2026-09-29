@@ -1,0 +1,5 @@
+design,n_observations,scaled_Jacobian_condition_number
+CONV only,24,571.5289538643857
+CONV + FLASH pre-breakpoint,28,584.2386727237412
+CONV + FLASH post-breakpoint,32,37.87212663474885
+CONV + FLASH + anoxic reference,40,9.669692611299936

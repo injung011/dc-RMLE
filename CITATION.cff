@@ -1,0 +1,6 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated manuscript."
+title: "dc-RMLE identifiability and parameter-recovery analyses"
+type: software
+version: 1.0.0
+# Add authors, repository URL, and archived DOI before public release.
