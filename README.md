@@ -135,4 +135,6 @@ If you use this code or the reconstructed data, please cite the manuscript and t
 
 ## License
 
-`[license to be added]`
+The software and analysis code in this repository are released under the MIT License. See the `LICENSE` file for details.
+
+Unless otherwise stated, this license applies to the software and analysis code provided in this repository and does not alter the copyright or licensing terms of third-party data, publications, or other externally sourced materials.
