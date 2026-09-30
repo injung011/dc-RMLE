@@ -190,6 +190,6 @@ pd.DataFrame({
 }).to_csv(ROOT / 'data' / 'processed' / 'Figure2C_RMSE_minimum.csv', index=False)
 
 fig.tight_layout(pad=1.4)
-fig.savefig(OUT / 'Figure2_final.png', dpi=300, bbox_inches='tight')
-fig.savefig(OUT / 'Figure2_final.pdf', bbox_inches='tight')
+fig.savefig(OUT / 'Figure2.png', dpi=300, bbox_inches='tight')
+fig.savefig(OUT / 'Figure2.pdf', bbox_inches='tight')
 plt.close(fig)

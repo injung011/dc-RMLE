@@ -138,6 +138,6 @@ for ax, (c, panel_label) in zip(axs.ravel(), order):
     ax.legend(loc='lower left', frameon=True, framealpha=0.95)
 
 fig.tight_layout(pad=1.4)
-fig.savefig(OUT / 'Figure1_final.png', dpi=300, bbox_inches='tight')
-fig.savefig(OUT / 'Figure1_final.pdf', bbox_inches='tight')
+fig.savefig(OUT / 'Figure1.png', dpi=300, bbox_inches='tight')
+fig.savefig(OUT / 'Figure1.pdf', bbox_inches='tight')
 plt.close(fig)

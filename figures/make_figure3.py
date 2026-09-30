@@ -30,6 +30,6 @@ ax.tick_params(axis='both', which='major', length=6, width=1.2)
 ax.legend(frameon=True, framealpha=0.95, loc='upper left', bbox_to_anchor=(0.02, 0.92))
 
 fig.tight_layout(pad=1.2)
-fig.savefig(OUT / 'Figure3_final.png', dpi=300, bbox_inches='tight')
-fig.savefig(OUT / 'Figure3_final.pdf', bbox_inches='tight')
+fig.savefig(OUT / 'Figure3.png', dpi=300, bbox_inches='tight')
+fig.savefig(OUT / 'Figure3.pdf', bbox_inches='tight')
 plt.close(fig)

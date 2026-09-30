@@ -74,6 +74,6 @@ ax.text(
 )
 
 fig.tight_layout(pad=1.5)
-fig.savefig(OUT / 'Figure4_final.png', dpi=300, bbox_inches='tight')
-fig.savefig(OUT / 'Figure4_final.pdf', bbox_inches='tight')
+fig.savefig(OUT / 'Figure4.png', dpi=300, bbox_inches='tight')
+fig.savefig(OUT / 'Figure4.pdf', bbox_inches='tight')
 plt.close(fig)
