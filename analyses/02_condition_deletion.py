@@ -51,7 +51,9 @@ def profile_fixed(omit, idx, grid):
 def contour(nq=41, ng=41):
     # Deterministic profile-SSE surface. No random seed is involved.
     mask=COND!='hyp-FLASH'; free=[0,1,2,3,4]
-    qs=np.linspace(0.60,1.32,nq); gs=np.linspace(0.0,0.55,ng)
+    qs=np.linspace(0.60,1.32,nq)
+    # Extend the fitted Gamma_F contour domain to the plotted upper limit.
+    gs=np.linspace(0.0,0.60,ng)
     rows=[]
     for q in qs:
         warm=XREF[free].copy()
